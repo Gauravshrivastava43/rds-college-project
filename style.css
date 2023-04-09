@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+header h1 {
+  padding: 15px 15px;
+  margin: 0px 0px;
+
+  text-align: center;
+
+
+  height: 120px;
+  font-size: 45px;
+  color: gold;
+  background-color: #333;
+  overflow: hidden;
+
+}
+
+#h2 {
+  margin-bottom: 25px;
+  margin-top: -90px;
+  text-align: center;
+  color: whitesmoke;
+  overflow: hidden;
+}
+
+header {
+  padding: 1px;
+  background-color: #FFFFE0;
+
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: right;
+  float: left;
+  color: white;
+}
+
+/* Navbar style in css */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: blueviolet;
+}
+
+.navbar a {
+  float: left;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* *************************************************** */
+img {
+
+  size: 55%;
+  width: 100%;
+  margin-top: 5px;
+
+}
+
+main {
+
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+h2 {
+  padding: 15px;
+  margin-left: 150px;
+}
+
+w section:nth-child(even) {
+  background-color: #FFF0F5;
+}
+
+section {
+  min-height: 100vh;
+
+}
+
+aside {
+  width: 150%;
+
+
+  padding-left: 700px;
+  margin-left: 40px;
+  margin-top: 5px;
+  float: right;
+  font-style: italic;
+  background-color: white;
+}
+
+.gaurav {
+  color: red;
+  font-size: large;
+}
+
+.ov {
+  text-align: left;
+  color: white;
+  background-color: blueviolet;
+  font-size: medium;
+}
+
+#ovr {
+  text-align: justify;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#ovr1 {
+  text-align: justify;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.founder {
+  size: 55%;
+  width: 17%;
+  margin-top: 5px;
+  margin-left: 550px;
+}
+
+footer {
+  background-color: #333;
+  overflow: hidden;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color: white;
+}
