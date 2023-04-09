@@ -44,31 +44,30 @@ input[type=submit]:hover {
 <div class="container">
   <form action="/action_page.php">
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="fname" name="firstname" placeholder="Your First name..">
 
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
     <label for="country">Country</label>
     <select id="country" name="country">
-        <option value="usa">Choose the opposition</option>
+        <option value="india">Choose the option (default - India)</option>
       <option value="usa">USA</option>
-      <option value="australia">India</option>
+      <option value="india">India</option>
       <option value="canada">Canada</option>
-      <option value="australia">Londan</option>
+      <option value="london">Londan</option>
       <option value="canada">France</option>
-      <option value="usa">Other</option>
+      <option value="other">Other</option>
     </select>
 
     <label for="Email">Email</label>
     <input type="text" id="lname" name="email" placeholder="Email" size="45" required>
 
     <label for="subject">Subject</label>
-    <textarea id="subject" name="content" placeholder="Write contents.." style="height:200px"></textarea>
+    <textarea id="subject" name="content" placeholder="Write contents.." style="height:200px" required></textarea>
 
-    <input type="submit" value="Submit">
+    <input type="submit" id="submit-button" value="Submit">
   </form>
 </div>
-
 </body>
 </html>
