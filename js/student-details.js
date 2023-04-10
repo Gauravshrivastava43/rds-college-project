@@ -22,6 +22,11 @@
                     td.innerText = item;
                     tr.appendChild(td);
                 }
+                let td = document.createElement('td');
+                td.innerHTML = `
+                <a href="https://rdsbca.pythonanywhere.com/api/students-register/${tuple[0]}" target="_blank"><i class="material-icons icons registrationIcons">open_in_new</i></a>
+                `
+                tr.appendChild(td);
                 tableBody.appendChild(tr);
             }
             document.getElementById('loading-svg').style.display = 'none';
