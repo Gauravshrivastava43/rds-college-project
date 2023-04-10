@@ -1,5 +1,6 @@
 (fetchDataFromServer = () => {
     document.getElementById('loading-svg').style.display = 'block';
+    document.querySelector('.table-striped').style.opacity = '0%';
     printMessage('Fetching data From server...', 'info');
     const request = new XMLHttpRequest();
     request.open('GET', 'https://rdsbca.pythonanywhere.com/api/contact-form', true);
@@ -23,6 +24,7 @@
                 }
                 tableBody.appendChild(tr);
             }
+            document.querySelector('.table-striped').style.opacity = '100%';
             document.getElementById('loading-svg').style.display = 'none';
         }
         else {
